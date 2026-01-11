@@ -1,14 +1,14 @@
 terraform {
   required_providers {
     google = {
-      source = "hashicorp/google"
+      source  = "hashicorp/google"
       version = "7.15.0"
     }
   }
 }
 
 provider "google" {
-  project     = "hale-monument-477117-k8"
+  project = "hale-monument-477117-k8"
 }
 
 resource "google_storage_bucket" "no-public-access" {
