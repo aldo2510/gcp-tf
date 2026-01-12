@@ -12,7 +12,7 @@ provider "google" {
 }
 
 resource "google_storage_bucket" "no-public-access" {
-  name          = "no-public-bucket-at10012026"
+  name          = "no-public-bucket-at11012026"
   location      = "US"
   force_destroy = true
 
