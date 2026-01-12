@@ -71,7 +71,6 @@ jobs:
               issue_number: context.issue.number,
               body
             });
-            
 
       - name: Terraform apply (main)
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
